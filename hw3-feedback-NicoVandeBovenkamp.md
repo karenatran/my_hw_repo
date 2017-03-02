@@ -14,6 +14,7 @@ Odds rations should be calculated as: $\beta = \frac{p}{1-p}$
 
 Note, $p$ = $P(Prestige_1 = 1| Admit = 1)$ and $1-p$ = $P(Prestige_1 = 0| Admit = 1)$. Now, we recommend that you use these frequency tables to hand calculate the odds ratios as these probabilities are messy to calculate. Thus, we end up calculating $\beta = \frac{Odds Admitted, Prestige_1}{Odds Not Admitted, Prestige_1}$. For Prestige 1 in *Q.3* $\beta = \frac{\frac{33}{28}}{\frac{94}{245}} = 3.0718$
 
+
 ***In the end***, hand calculating these odds rations is not as important than really just knowing $\log(\beta) = \log(\frac{p}{1-p})$ is the coefficient of the logistic regression...
 
 * **Q.4.4 / Interpreting Odds Ratios:** When you are Interpreting these odds ratios, these aren't 'percentages' or 'probabilities' but rather they are the 'odds' or 'likelihood' (roughly speaking) of something happening versus not happening. In other words, when you have an odds ration of $0.38$ for $Prestige_2$ then a student is nearly *'one-third'* as likely to be admitted versus attending another prestige school.
